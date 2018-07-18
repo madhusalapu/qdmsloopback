@@ -1,0 +1,34 @@
+{
+  "dmOrgmappingProperties":
+  {
+    "id": {
+      "type": "keyword",
+	  "index": true
+    },
+    "name": {
+      "type": "keyword"
+    },
+    "latitude": {
+      "type": "keyword"
+    },
+    "longitude": {
+      "type": "keyword"
+    },
+    "type": {
+      "type": "keyword"
+    },
+    "info": {
+      "type": "keyword"
+    },
+    "created":
+    {
+      "type": "date",
+      "index": true
+    },
+    "lastUpdated":
+    {
+      "type": "date",
+      "index": true
+    }
+  }
+}
