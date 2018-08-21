@@ -1,32 +1,38 @@
 {
-  "name": "dmOrganization",
-  "plural": "dmorg",
+  "name": "asset",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
-  "replaceOnPUT": false,
   "properties": {
-    "id": {
-      "type": "string"
-    },
-    "name": {
+    "assetName": {
       "type": "string",
       "required": true
     },
-    "latitude": {
-      "type": "number",
+    "category": {
+      "type": "object",
       "required": true
     },
-    "longitude": {
-      "type": "number",
+    "item": {
+      "type": "object",
       "required": true
     },
-    "type": {
+    "organizationName": {
+      "type": "string",
+      "required": true
+    },
+    "facility": {
+      "type": "string",
+      "required": true
+    },
+    "state_district": {
       "type": "string"
     },
-    "info": {
+    "state": {
+      "type": "string"
+    },
+    "postcode": {
       "type": "string"
     }
   },

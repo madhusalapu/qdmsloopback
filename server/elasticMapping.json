@@ -1,33 +1,27 @@
 {
-  "dmOrgmappingProperties":
+  "mappingProperties":
   {
-    "id": {
-      "type": "keyword",
-	  "index": true
-    },
-    "name": {
-      "type": "keyword"
-    },
-    "latitude": {
-      "type": "keyword"
-    },
-    "longitude": {
-      "type": "keyword"
-    },
-    "type": {
-      "type": "keyword"
-    },
-    "info": {
-      "type": "keyword"
-    },
-    "created":
+    "id":
     {
-      "type": "date",
+      "type": "keyword",
       "index": true
     },
-    "lastUpdated":
+    "docType":
     {
-      "type": "date",
+      "type": "keyword",
+      "index": true
+    },
+    "categoryId":
+    {
+      "type": "keyword",
+      "index": true
+    },
+    "itemId":{
+      "type": "keyword",
+      "index": true
+    },
+    "supplierId":{
+      "type": "keyword",
       "index": true
     }
   }

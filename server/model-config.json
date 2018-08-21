@@ -39,7 +39,23 @@
     "dataSource": null
   },
   "dmOrganization": {
-    "dataSource": "dmOrganizationDB",
+    "dataSource": "es",
+    "public": true
+  },
+  "category": {
+    "dataSource": "es",
+    "public": true
+  },
+  "items": {
+    "dataSource": "es",
+    "public": true
+  },
+  "supplier": {
+    "dataSource": "es",
+    "public": true
+  },
+  "asset": {
+    "dataSource": "es",
     "public": true
   }
 }
