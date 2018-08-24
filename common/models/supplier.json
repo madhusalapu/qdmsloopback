@@ -2,6 +2,7 @@
   "name": "supplier",
   "base": "PersistedModel",
   "idInjection": true,
+  "replaceOnPUT": false,
   "options": {
     "validateUpsert": true
   },

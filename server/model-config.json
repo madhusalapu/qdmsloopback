@@ -57,5 +57,13 @@
   "asset": {
     "dataSource": "es",
     "public": true
+  },
+  "incident": {
+    "dataSource": "incidentDB",
+    "public": true
+  },
+  "resource": {
+    "dataSource": "resourceDB",
+    "public": true
   }
 }

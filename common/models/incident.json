@@ -1,0 +1,21 @@
+{
+  "name": "incident",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "replaceOnPUT": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "location": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

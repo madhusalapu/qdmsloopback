@@ -1,0 +1,40 @@
+{
+  "name": "resource",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "replaceOnPUT": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "org": {
+      "type": "string",
+      "required": true
+    },
+    "dept": {
+      "type": "string"
+    },
+    "job": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "number",
+      "required": true
+    },
+    "longitude": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

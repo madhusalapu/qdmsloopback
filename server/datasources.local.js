@@ -18,5 +18,32 @@ module.exports = {
     'log': false,
     'apiVersion': '6.0',
     'requestTimeout': 30000
+  },
+  'incidentDB': {
+    'name': 'incident',
+    'connector': 'esv6',
+    'index': elasticConfig.incidentIndex,
+    'hosts': elasticConfig.hosts,
+    'mappingType': 'basedata',
+    //'mappingProperties': elasticSchema.dmOrgmappingProperties,
+    'mappings': [],
+    'defaultSize': 1000,
+    'log': false,
+    'apiVersion': '6.0',
+    'requestTimeout': 30000
+  },
+
+  'resourceDB': {
+    'name': 'resource',
+    'connector': 'esv6',
+    'index': elasticConfig.resourceIndex,
+    'hosts': elasticConfig.hosts,
+    'mappingType': 'basedata',
+    //'mappingProperties': elasticSchema.dmOrgmappingProperties,
+    'mappings': [],
+    'defaultSize': 1000,
+    'log': false,
+    'apiVersion': '6.0',
+    'requestTimeout': 30000
   }
 };
