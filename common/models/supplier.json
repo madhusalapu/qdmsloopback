@@ -2,10 +2,10 @@
   "name": "supplier",
   "base": "PersistedModel",
   "idInjection": true,
-  "replaceOnPUT": false,
   "options": {
     "validateUpsert": true
   },
+  "replaceOnPUT": false,
   "scope": {
     "include": "items"
   },

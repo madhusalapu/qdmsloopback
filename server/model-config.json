@@ -65,5 +65,9 @@
   "resource": {
     "dataSource": "resourceDB",
     "public": true
+  },
+  "notification": {
+    "dataSource": "notificationDB",
+    "public": true
   }
 }

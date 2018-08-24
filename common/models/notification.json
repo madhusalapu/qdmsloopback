@@ -1,16 +1,15 @@
 {
-  "name": "incident",
+  "name": "notification",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
-  "replaceOnPUT": false,
   "properties": {
-    "location": {
-      "type": "string"
+    "status": {
+      "type": "boolean"
     },
-    "state": {
+    "desc": {
       "type": "string"
     }
   },

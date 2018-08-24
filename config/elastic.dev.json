@@ -2,6 +2,7 @@
   "dmOrganizationIndex": "sample",
   "incidentIndex": "incident",
   "resourceIndex": "resource",
+  "notificationIndex":"notification",
   "hosts": [
   {
     "host": "127.0.0.1",

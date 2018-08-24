@@ -2,10 +2,10 @@
   "name": "resource",
   "base": "PersistedModel",
   "idInjection": true,
-  "replaceOnPUT": false,
   "options": {
     "validateUpsert": true
   },
+  "replaceOnPUT": false,
   "properties": {
     "name": {
       "type": "string",
