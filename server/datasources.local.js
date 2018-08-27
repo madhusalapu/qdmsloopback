@@ -57,5 +57,18 @@ module.exports = {
     'log': false,
     'apiVersion': '6.0',
     'requestTimeout': 30000
+  },
+  'livenewsfeedDB': {
+    'name': 'resource',
+    'connector': 'esv6',
+    'index': elasticConfig.livenewsfeedIndex,
+    'hosts': elasticConfig.hosts,
+    'mappingType': 'basedata',
+    //'mappingProperties': elasticSchema.dmOrgmappingProperties,
+    'mappings': [],
+    'defaultSize': 1000,
+    'log': false,
+    'apiVersion': '6.0',
+    'requestTimeout': 30000
   }
 };

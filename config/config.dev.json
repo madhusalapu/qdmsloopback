@@ -5,6 +5,7 @@
     "incidentIndex": "incident",
     "resourceIndex": "resource",
     "notificationIndex":"notification",
+    "livenewsfeedIndex":"livenewsfeed",
     "hosts": [
     {
       "host": "52.23.11.19",

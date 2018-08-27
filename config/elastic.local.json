@@ -3,6 +3,7 @@
   "incidentIndex": "incident",
   "resourceIndex": "resource",
   "notificationIndex":"notification",
+  "livenewsfeedIndex":"livenewsfeed",
   "hosts": [
   {
     "host": "127.0.0.1",
