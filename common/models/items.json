@@ -7,6 +7,7 @@
   },
   "replaceOnPUT": false,
   "properties": {
+    "id": {"id": true, "type": "string", "generated": false},
     "itemName": {
       "type": "string",
       "required": true

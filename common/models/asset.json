@@ -34,7 +34,20 @@
     },
     "postcode": {
       "type": "string"
+    },
+    "latitude": {
+      "type": "number",
+      "required": true
+    },
+    "longitude": {
+      "type": "number",
+      "required": true
+    },
+    "categoryType":{
+      "type": "string",
+      "required": true
     }
+
   },
   "validations": [],
   "relations": {},
